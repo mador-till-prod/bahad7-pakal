@@ -270,9 +270,7 @@ const goToSubj = (event) => {
     let counter = 0;
 
     const _clickSub = () => {
-        console.log('click');
         if (counter < placeInArr) {
-            console.log(document.querySelector(`.sub-topics-container[data-subsubject="${subSubject}"]`), placeInArr)
             document.querySelector(`.sub-topics-container[data-subsubject="${subSubject}"]`).click();
             counter++;
         } else {
@@ -404,7 +402,6 @@ function beforePractice() {
         let key = SUBJECTS_TITLES[i];
         if (DATA[key].questionsExam && DATA[key].questionsExam.length !== 0) { 
             subjectsWithPractice.push(SUBJECTS_TITLES[i]);
-            console.log(SUBJECTS_TITLES[i])
         }
     }
     // הוספת כל נושאי הלמידה האפשריים לתרגול
@@ -479,7 +476,6 @@ function beforePractice() {
 
 function questionsToPractice() {
     let selectedQuestions = [];
-    console.log(SUBJECTS_TITLES);
     let subjects = SUBJECTS_TITLES.filter((_, i) => selectedSubjects[i]);
 
     // מקסימום כמות השאלות לכל נושא
@@ -2199,7 +2195,6 @@ function subjectLearningPage(subject) {
 
     // מאזין לגלילה של התתי נושאים, הופך את הנושאים שלא ממורכזים לבעלי שקיפות
     document.querySelector(".page.learning.content .container-subjects").addEventListener("scroll", function () {
-        console.log('scroll')
         let midPage = window.innerWidth / 2;
         let smallestDifference = 1000;
         let count = 0;
