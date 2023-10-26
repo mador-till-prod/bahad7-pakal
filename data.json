@@ -29,7 +29,7 @@
                         {
                             "cardType": "picAndText",
                             "content": "לאחרונה הוחלט בצה\"ל להוסיף למסמך רוח צה\"ל את ערך הממלכתיות. הנוסח, עליו החליט\nהרמטכ\"ל קובע כי: \"צה\"ל הוא צבא העם, צבא ממלכתי, הנתון למרות החוק והממשלה. חיילי צה\"ל יפעלו כשרק המשימה, ערכי צה\"ל וביטחון המדינה ראשונים לנגד עינהם ויעשו זאת ביושרה, בענייניות ובייצוגיות.\"",
-                            "pic": {}
+                            "pic": "../assets/images/ruahZahal.jpeg"
                         }
                     ]
                 }
@@ -56,7 +56,7 @@
                         {
                             "cardType": "picAndText",
                             "content": "",
-                            "pic": {}
+                            "pic": "../assets/images/activeLevel.png"
                         }
                     ]
                 },
@@ -71,21 +71,21 @@
                         {
                             "cardType": "picAndText",
                             "content": "",
-                            "pic": {}
+                            "pic": "../assets/images/activityTimes.png"
                         }
                     ],
                     "שעות הפעילות של חיילות בשירות קבע שהן אימהות לילדים כמפורט בפ\"מ 36.0406:": [
                         {
                             "cardType": "picAndText",
                             "content": "",
-                            "pic": {}
+                            "pic": "../assets/images/motherTimes.png"
                         }
                     ],
                     "שעות פתיחת משרדים למשרתים בתנאי יחידה סגורה (רמ\"פ ב'):": [
                         {
                             "cardType": "picAndText",
                             "content": "",
-                            "pic": {}
+                            "pic": "../assets/images/openingHours.png"
                         }
                     ],
                     "דגשים": [
@@ -222,7 +222,7 @@
                         {
                             "cardType": "picAndText",
                             "content": "שעות הפעילות",
-                            "pic": {}
+                            "pic": "../assets/images/prayers.png"
                         },
                         {
                             "cardType": "text",
@@ -289,22 +289,22 @@
                         {
                             "cardType": "picAndText",
                             "content": "",
-                            "pic": {}
+                            "pic": "../assets/images/duties.png"
                         },
                         {
                             "cardType": "picAndText",
                             "content": "",
-                            "pic": {}
+                            "pic": "../assets/images/duties2.png"
                         },
                         {
                             "cardType": "picAndText",
                             "content": "",
-                            "pic": {}
+                            "pic": "../assets/images/duties3.png"
                         },
                         {
                             "cardType": "picAndText",
                             "content": "",
-                            "pic": {}
+                            "pic": "../assets/images/duties4.png"
                         }
                     ]
                 },
